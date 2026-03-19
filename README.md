@@ -60,7 +60,7 @@ pip install pypdf reportlab pillow pyinstaller
 
 **How to Generate the Executable .exe**
 ```bash
-pip install pypdf reportlab pillow pyinstaller
+pyinstaller --noconsole --onefile --add-data "wdc.png;." --add-data "modelo_base.pdf;." app_etiqueta.py
 ```
 
 
